@@ -1,0 +1,102 @@
+2018-01-12 23:03:21,945|trickle:96|expired|trickle timer has expired, increasing minimum interval size
+2018-01-12 23:03:21,946|trickle:107|expired|next trickle timer is set to run in 39.349374 seconds
+2018-01-12 23:03:52,609|cli:53|parse|processing command list-routes
+2018-01-12 23:04:00,236|cli:53|parse|processing command list-routes
+2018-01-12 23:04:01,300|dodag:152|sendDIO|sending DIO message for dead:beef::1 (version 240)
+2018-01-12 23:04:01,307|trickle:96|expired|trickle timer has expired, increasing minimum interval size
+2018-01-12 23:04:01,310|trickle:107|expired|next trickle timer is set to run in 97.794437 seconds
+2018-01-12 23:04:21,418|core:133|handleMessage|received a DIO message from fe80::b4e1:79a4:dea9:4a55
+2018-01-12 23:04:21,421|core:167|handleDIO|This node is the DODAG Root for this DODAG, dropping DIO
+2018-01-12 23:04:21,516|core:133|handleMessage|received a DIO message from fe80::b4e1:79a4:dea9:4a55
+2018-01-12 23:04:21,519|core:167|handleDIO|This node is the DODAG Root for this DODAG, dropping DIO
+2018-01-12 23:04:21,602|core:133|handleMessage|received a DIO message from fe80::b4e1:79a4:dea9:4a55
+2018-01-12 23:04:21,605|core:167|handleDIO|This node is the DODAG Root for this DODAG, dropping DIO
+2018-01-12 23:04:21,830|core:133|handleMessage|received a DIO message from fe80::b4e1:79a4:dea9:4a55
+2018-01-12 23:04:21,833|core:167|handleDIO|This node is the DODAG Root for this DODAG, dropping DIO
+2018-01-12 23:04:22,264|core:133|handleMessage|received a DIO message from fe80::b4e1:79a4:dea9:4a55
+2018-01-12 23:04:22,267|core:167|handleDIO|This node is the DODAG Root for this DODAG, dropping DIO
+2018-01-12 23:04:22,397|core:133|handleMessage|received a DAO message from fe80::24e4:fd7c:d803:4c97
+2018-01-12 23:04:22,409|core:454|handleDAO|DAO message contains the following (5) options:
+2018-01-12 23:04:22,411|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:22,412|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:22,413|core:456|handleDAO|- RPL_Option_Transit_Information
+2018-01-12 23:04:22,419|core:492|handleDAO|routes to be removed (4):
+[Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,)]
+2018-01-12 23:04:22,420|core:493|handleDAO|routes to be added (3):
+[Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, True,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, True,), Route(dead:beef::50c7:1d88:50d1:5a1e/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,)]
+2018-01-12 23:04:22,421|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:22,422|core:456|handleDAO|- RPL_Option_Transit_Information
+2018-01-12 23:04:22,424|core:492|handleDAO|routes to be removed (4):
+[Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,)]
+2018-01-12 23:04:22,425|core:493|handleDAO|routes to be added (3):
+[Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, True,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, True,), Route(dead:beef::50c7:1d88:50d1:5a1e/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,)]
+2018-01-12 23:04:22,426|dodag:293|sendDAO_ACK|sending DAO-ACK to fe80::24e4:fd7c:d803:4c97
+2018-01-12 23:04:23,494|core:133|handleMessage|received a DAO message from fe80::24e4:fd7c:d803:4c97
+2018-01-12 23:04:23,500|core:454|handleDAO|DAO message contains the following (2) options:
+2018-01-12 23:04:23,501|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:23,502|core:456|handleDAO|- RPL_Option_Transit_Information
+2018-01-12 23:04:23,504|core:492|handleDAO|routes to be removed (4):
+[Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,), Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, False,)]
+2018-01-12 23:04:23,505|core:493|handleDAO|routes to be added (3):
+[Route(dead:beef::24e4:fd7c:d803:4c97/128, fe80::24e4:fd7c:d803:4c97, lowpan0, True,), Route(dead:beef::b4e1:79a4:dea9:4a55/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, True,), Route(dead:beef::50c7:1d88:50d1:5a1e/128, fe80::b4e1:79a4:dea9:4a55, lowpan0, False,)]
+2018-01-12 23:04:23,508|core:133|handleMessage|received a DAO message from fe80::24e4:fd7c:d803:4c97
+2018-01-12 23:04:23,518|core:454|handleDAO|DAO message contains the following (5) options:
+2018-01-12 23:04:23,519|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:23,520|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:23,521|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:23,522|core:456|handleDAO|- RPL_Option_RPL_Target
+2018-01-12 23:04:23,522|core:456|handleDAO|- RPL_Option_Transit_Information
+2018-01-12 23:04:23,531|main:139|main|main loop interrupted, program is exiting
+2018-01-12 23:04:23,532|dodag:471|poison|Poisoning DODAG dead:beef::1 (version 240)
+2018-01-12 23:04:23,533|dodag:199|sendDAO|sending DAO message for dead:beef::1 (version 240)
+2018-01-12 23:04:23,536|dodag:229|sendDAO|sending DAO message to All-RPL-Nodes multicast address: ff02::1a
+2018-01-12 23:04:23,539|dodag:152|sendDIO|sending DIO message for dead:beef::1 (version 240)
+2018-01-12 23:04:23,548|route_cache:46|remove_route|Remove route to dead:beef::24e4:fd7c:d803:4c97/128 through fe80::24e4:fd7c:d803:4c97 on iface lowpan0
+2018-01-12 23:04:23,552|route_cache:46|remove_route|Remove route to dead:beef::b4e1:79a4:dea9:4a55/128 through fe80::b4e1:79a4:dea9:4a55 on iface lowpan0
+2018-01-12 23:04:23,556|route_cache:46|remove_route|Remove route to dead:beef::50c7:1d88:50d1:5a1e/128 through fe80::b4e1:79a4:dea9:4a55 on iface lowpan0
+Traceback (most recent call last):
+  File "/usr/local/bin/simpleRPL.py", line 28, in <module>
+    main(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/main.py", line 136, in main
+    process_loop(interfaces)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 87, in process_loop
+    handleMessage(interfaces, message)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 144, in handleMessage
+    handler(interfaces, message)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 491, in handleDAO
+    (removed_routes, new_routes) = dodag.get_filtered_downward_routes()
+  File "/usr/local/lib/python2.7/dist-packages/RPL/dodag.py", line 444, in get_filtered_downward_routes
+    assert id(node) != id(current_node)
+AssertionError
+
+> /usr/local/lib/python2.7/dist-packages/RPL/dodag.py(444)get_filtered_downward_routes()
+-> assert id(node) != id(current_node)
+(Pdb) Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/RPL/main.py", line 50, in info
+    pdb.pm()
+  File "/usr/lib/python2.7/pdb.py", line 1270, in pm
+    post_mortem(sys.last_traceback)
+  File "/usr/lib/python2.7/pdb.py", line 1267, in post_mortem
+    p.interaction(None, t)
+  File "/usr/lib/python2.7/pdb.py", line 210, in interaction
+    self.cmdloop()
+  File "/usr/lib/python2.7/cmd.py", line 130, in cmdloop
+    line = raw_input(self.prompt)
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/local/bin/simpleRPL.py", line 28, in <module>
+    main(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/main.py", line 136, in main
+    process_loop(interfaces)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 87, in process_loop
+    handleMessage(interfaces, message)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 144, in handleMessage
+    handler(interfaces, message)
+  File "/usr/local/lib/python2.7/dist-packages/RPL/core.py", line 491, in handleDAO
+    (removed_routes, new_routes) = dodag.get_filtered_downward_routes()
+  File "/usr/local/lib/python2.7/dist-packages/RPL/dodag.py", line 444, in get_filtered_downward_routes
+    assert id(node) != id(current_node)
+AssertionError
